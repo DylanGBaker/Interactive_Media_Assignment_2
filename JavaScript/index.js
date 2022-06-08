@@ -24,5 +24,8 @@ function getRandomBlogPost() {
     document.getElementById("home_blog_section_content").innerHTML = blog_post_list_text[getRandomNumber]; 
 }
 
-getRandomBlogPost();
+
+
 ///////////////////////////////////////////////////////
+
+getRandomBlogPost();
