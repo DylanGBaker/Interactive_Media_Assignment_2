@@ -1,0 +1,133 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website\ Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+/*Classes for the main hyperlinks*/
+
+#hyperlinks{
+    width: 100vw;
+}
+
+#hyperlinks ul{ 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#hyperlinks li{
+    margin: 0 5%;
+}
+
+#hyperlinks .u-url{ 
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgba(223, 45, 134, 1);
+    padding: 10px 20px;
+    border-radius: 70px;
+}
+
+#hyperlinks .u-url:hover {
+    background: rgba(223, 45, 134, 0.8)
+}
+
+
+
+/* Media query for different screen size*/
+
+
+/*______________________________________________________________________________________________________________________________*/
+
+/*Classes for blogs*/
+
+#hyperlinks #blog_link {
+    background: rgba(22, 255, 240, 0.6);
+}
+
+#blog_post.h-entry {
+    margin: 50px 300px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(100px);
+    border-radius: 5px;
+    padding: 20px 5px;
+}
+
+#blog_post.h-entry .e-content{
+    font-size: 150%;
+    margin: 20px 100px; 
+    line-height: em;
+}
+
+#blog_post .p-name{
+    text-align: center;
+    font-size: 320%;
+}
+
+#blog_post .paragraph_headers{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+#blog_post_citations.h-entry{
+    margin: 50px 300px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(100px);
+    border-radius: 5px;
+    padding: 20px 5px;
+}
+
+#blog_post_citations .e-content{
+    font-size: 140%;
+}
+
+
+#about_blog {
+    margin-top: 50px;
+}
+
+#about_blog.h-card .e-content{
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    height: 150px;
+    margin: 10px 200px 60px 200px;
+    background: rgba(223, 45, 134, 0.6);
+    padding: 20px 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+#about_blog .h-card .p-name.u-url{
+    font-size: 200%;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#about_blog .e-content .p-name.u-url {
+    font-size: 70%;
+    color: rgba(22, 225, 240, 0.9);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Media query for different screen size*/
+
+/*______________________________________________________________________________________________________________________________*/

@@ -1,0 +1,79 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website\ Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+/*Classes for the main hyperlinks*/
+
+#hyperlinks{
+    width: 100vw;
+}
+
+#hyperlinks ul{ 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#hyperlinks li{
+    margin: 0 5%;
+}
+
+#hyperlinks .u-url{ 
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgba(223, 45, 134, 1);
+    padding: 10px 20px;
+    border-radius: 70px;
+}
+
+#hyperlinks .u-url:hover {
+    background: rgba(223, 45, 134, 0.8)
+}
+
+
+
+/* Media query for different screen size*/
+
+
+/*______________________________________________________________________________________________________________________________*/
+/*Classes for the Design page*/
+
+#design_header{
+    margin-top: 30px;
+}
+
+#design_header.p-name .headers {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 400%;
+    color: white;
+}
+
+#design_pdf.p-name {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 70vh;
+}
+
+#design_pdf.p-name .e-content {
+    width: 100%;
+    height: 70vh;
+}
+
+/* Media query for different screen size*/
+
+/*______________________________________________________________________________________________________________________________*/

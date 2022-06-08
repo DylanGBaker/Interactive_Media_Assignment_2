@@ -1,0 +1,89 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website\ Backgroundjpg.jpg) repeat fixed 100% ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body .headers{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+/*Classes for the main hyperlinks*/
+
+#hyperlinks{
+    width: 100vw;
+}
+
+#hyperlinks ul{ 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#hyperlinks li{
+    margin: 0 5%;
+}
+
+#hyperlinks .u-url{ 
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgba(223, 45, 134, 1);
+    padding: 10px 20px;
+    border-radius: 70px;
+}
+
+#hyperlinks .u-url:hover {
+    background: rgba(223, 45, 134, 0.8)
+}
+
+
+
+/* Media query for different screen size*/
+
+
+/*______________________________________________________________________________________________________________________________*/
+
+/*Classes for the Portfolio page*/
+
+#portfolio.h-entry {
+    width: 95%;
+    height: 380px;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+#portfolio #image.h-entry {
+    margin-right: 900px;
+    width: 40%;
+}
+
+#portfolio #image .e-content{
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#portfolio #description.e-content {
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    text-align: left;
+    padding: 5px 5px;
+}
+
+#portfolio #description.e-content .p-name.u-url {
+    color: rgba(22, 255, 240, 0.9);
+}
+
+
+/* Media query for different screen size*/
+
+/*______________________________________________________________________________________________________________________________*/
