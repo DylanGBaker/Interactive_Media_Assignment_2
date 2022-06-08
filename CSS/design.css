@@ -44,32 +44,27 @@ body .headers{
     background: rgba(223, 45, 134, 0.8)
 }
 
-
-
 /* Media query for different screen size*/
 
 
 /*______________________________________________________________________________________________________________________________*/
 /*Classes for the Design page*/
 
-#design_header{
-    margin-top: 30px;
+#design_pdf {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 70vh;
 }
 
-#design_header.p-name .headers {
+#design_header .headers {
+    margin-top: 30px;
     margin-top: 20px;
     font-weight: bold;
     font-size: 400%;
     color: white;
 }
 
-#design_pdf.p-name {
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 70vh;
-}
-
-#design_pdf.p-name .e-content {
+#pdf.e-content {
     width: 100%;
     height: 70vh;
 }

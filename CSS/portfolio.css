@@ -61,25 +61,25 @@ body .headers{
     border-radius: 5px;
 }
 
-#portfolio #image.h-entry {
+#image.h-entry {
     margin-right: 900px;
     width: 40%;
 }
 
-#portfolio #image .e-content{
+#image .e-content{
     float: left;
     width: 100%;
     padding: 0 20px;
 }
 
-#portfolio #description.e-content {
+#description.e-content {
     color: rgb(255, 255, 255);
     font-size: 150%;
     text-align: left;
     padding: 5px 5px;
 }
 
-#portfolio #description.e-content .p-name.u-url {
+#description .u-url {
     color: rgba(22, 255, 240, 0.9);
 }
 

@@ -53,7 +53,7 @@ body .headers{
 
 /*Classes for the Contact page*/
 
-#contact.h-entry {
+#contact {
     margin: 50px 400px 0px 400px;
     background: rgba(0,0,0,0.5);
     backdrop-filter: blur(10px);
@@ -65,7 +65,6 @@ body .headers{
     font-size: 150%;
     text-align: center;
 }
-
 
 /* Media query for different screen size*/
 
