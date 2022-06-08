@@ -14,52 +14,6 @@ body .headers{
     font-weight: bold;
 }
 
-/*Classes for the main hyperlinks*/
-
-#hyperlinks{
-    width: 100vw;
-}
-
-#hyperlinks ul{ 
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-#hyperlinks li{
-    margin: 0 5%;
-}
-
-#hyperlinks .u-url{ 
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 150%;
-    font-weight: bold;
-    text-decoration: none;
-    background: rgba(223, 45, 134, 1);
-    padding: 10px 20px;
-    border-radius: 70px;
-}
-
-#hyperlinks .u-url:hover {
-    background: rgba(223, 45, 134, 0.8)
-}
-
-.Hamburger_Logo {
-    display: none;
-}
-
-.Hamburger_Logo section{
-    background-color: white;
-    height: 5px;
-    width: 30px;
-    margin: 5px 5px 5px 5px;
-}
-
-/* Media query for different screen size*/
-
-
-/*______________________________________________________________________________________________________________________________*/
-
 /*Classes for the Contact page*/
 
 #contact {
@@ -75,41 +29,3 @@ body .headers{
     text-align: center;
 }
 
-/* Media query for different screen size*/
-
-@media screen and (max-width: 800px) {
-    body {
-        overflow-x: hidden;
-    }
-    .Hamburger_Logo {
-        display: block;
-    }
-
-    #hyperlinks ul{
-        width: 100vw;
-        height: 100vh;
-        background: black;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transform: translateX(100%);
-        backdrop-filter: blur(100px);  
-    }
-
-    #hyperlinks .u-url {
-        margin: 10% 0 10% 0;
-    }
-}
-
-#hyperlinks .toggle_nav {
-    transform: translate(0%);
-    transition: transform 0.5s ease-in;
-}
-
-.grid_content.toggle_grid {
-    transform: translate(-110%);
-    transition: transform 0.5s ease-out;
-}
-
-/*______________________________________________________________________________________________________________________________*/
