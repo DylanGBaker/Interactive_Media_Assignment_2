@@ -14,10 +14,6 @@ body .headers{
     font-weight: bold;
 }
 
-/* Media query for different screen size*/
-
-/*______________________________________________________________________________________________________________________________*/
-
 /*Classes for home page*/
 
 .grid_content {
@@ -96,14 +92,3 @@ body .headers{
     text-decoration: none;
     border-radius: 70px;
 }
-
-/* Media query for different screen size*/
-
-
-
-.grid_content.toggle_grid {
-    transform: translate(-110%);
-    transition: transform 0.5s ease-out;
-}
-
-/*______________________________________________________________________________________________________________________________*/

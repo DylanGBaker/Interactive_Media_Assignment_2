@@ -24,8 +24,31 @@ function getRandomBlogPost() {
     document.getElementById("home_blog_section_content").innerHTML = blog_post_list_text[getRandomNumber]; 
 }
 
+//////////////////////////////////////////////////////////////////////
 
+const navBarLinks = document.querySelectorAll("#redirect_link");
+var hrefs = ["index.html", "Blogs/blog.html", "Design/design.html", "Portfolio/portfolio.html", "Contact/contact.html"]; //Initilaizing the file paths
 
-///////////////////////////////////////////////////////
+function GetNewPageLocation(i) {
+    location.href = hrefs[i];
+}
 
-getRandomBlogPost();
+function ChangePageOnClick() {
+    navBarLinks[0].addEventListener("click", GetNewPageLocation(0));
+    navBarLinks[1].addEventListener("click", GetNewPageLocation(1));
+    navBarLinks[2].addEventListener("click", GetNewPageLocation(2));
+    navBarLinks[3].addEventListener("click", GetNewPageLocation(3));
+    navBarLinks[4].addEventListener("click", GetNewPageLocation(4));
+}
+
+function RunEvents() {
+    ChangePageOnClick();
+}
+
+function RunPageFunctions() {
+    getRandomBlogPost();
+}
+
+RunEvents();
+RunPageFunctions();
+
