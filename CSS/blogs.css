@@ -67,7 +67,7 @@ body .headers{
 #about_blog .e-content{
     color: rgb(255, 255, 255);
     font-size: 200%;
-    height: 150px;
+    height: 100%px;
     margin: 10px 200px 60px 200px;
     background: rgba(223, 45, 134, 0.6);
     padding: 20px 40px;
@@ -89,6 +89,12 @@ body .headers{
     font-weight: bold;
 }
 
+@media screen and (max-width: 1400px) {
+    #about_blog .e-content{
+        margin: 20px 30px;
+    }
+}
+
 @media screen and (max-width: 850px) {
 
     #about_blog .headers {
@@ -100,5 +106,35 @@ body .headers{
         height: 100%;
         margin: 10px 40px 10px 40px;
         padding: 20px 20px; 
+    }
+
+    #blog_post.h-entry {
+        margin: 10px;
+    }
+
+    #blog_post .headers {
+        font-size: small;
+    }
+    
+    #blog_post .e-content{
+        font-size: 120%;
+        margin: 10px 20px; 
+        line-height: 1em;
+    }
+
+    #blog_post .paragraph_headers{
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-decoration: underline;
+    }
+
+    #blog_post_citations.h-entry{
+        margin: 2%;
+        padding: 20px 5px;
+    }
+
+    #blog_post_citations .e-content{
+        font-size: 80%;
     }
 }
