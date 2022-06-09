@@ -25,6 +25,7 @@
     background: rgba(223, 45, 134, 1);
     padding: 10px 20px;
     border-radius: 70px;
+    cursor: pointer;
 }
 
 #hyperlinks .u-url:hover {
