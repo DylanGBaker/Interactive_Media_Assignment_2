@@ -6,7 +6,7 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
-    padding: 0;
+    padding-bottom: 25%;
 }
 
 body .headers{
@@ -14,6 +14,12 @@ body .headers{
     font-weight: bold;
 }
 
+footer {
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
 /*Classes for the Design page*/
 
 #design_pdf {
