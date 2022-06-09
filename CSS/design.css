@@ -24,7 +24,6 @@ body .headers{
 
 #design_header .headers {
     margin-top: 30px;
-    margin-top: 20px;
     font-weight: bold;
     font-size: 400%;
     color: white;
@@ -33,4 +32,12 @@ body .headers{
 #pdf.e-content {
     width: 100%;
     height: 70vh;
+}
+
+@media screen and (max-width: 850px) {
+
+    #design_header .headers {
+        font-size: 200%;
+        justify-content: center;
+    }
 }
