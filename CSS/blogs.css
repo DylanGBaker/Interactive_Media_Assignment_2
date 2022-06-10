@@ -109,6 +109,10 @@ footer {
     #about_blog .e-content{
         margin: 20px 30px;
     }
+
+    #blog_post.h-entry {
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 850px) {
