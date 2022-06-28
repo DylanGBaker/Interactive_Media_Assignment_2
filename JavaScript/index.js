@@ -26,7 +26,7 @@ function getRandomBlogPost() {
 
 //////////////////////////////////////////////////////////////////////
 
-const navBarLinks = document.querySelectorAll("#redirect_link");
+const navBarLinks = document.querySelectorAll(".u-url");
 var hrefs = ["index.html", "Blogs/blog.html", "Design/design.html", "Portfolio/portfolio.html", "Contact/contact.html"]; //Initilaizing the file paths
 
 function GetNewPageLocation(i) {
