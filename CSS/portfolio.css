@@ -23,7 +23,7 @@ footer {
 
 /*Classes for the Portfolio page*/
 
-#portfolio {
+.portfolio {
     width: 95%;
     height: 40%;
     background: rgba(0,0,0,0.4);
@@ -31,38 +31,38 @@ footer {
     border-radius: 5px;
 }
 
-#image {
+.image {
     margin-right: 900px;
     width: 40%;
 }
 
-#image .e-content{
+.image .e-content{
     float: left;
     width: 100%;
     padding: 20px;
 }
 
-#description.e-content {
+.description {
     color: rgb(255, 255, 255);
     font-size: 150%;
     text-align: left;
     padding: 5px 5px;
 }
 
-#description .u-url {
+.description .u-url {
     color: rgba(22, 255, 240, 0.9);
 }
 
 @media screen and (max-width: 850px) {
-    #image {
+    .image {
         width: 80%;
     }
 
-    #portfolio {
+    .portfolio {
         height: 70%;
     }
 
-    #description.e-content {
+    .description.e-content {
         padding: 10px 10px;
     }
 }

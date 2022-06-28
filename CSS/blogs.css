@@ -74,11 +74,11 @@ footer {
     font-size: 140%;
 }
 
-#about_blog {
+.about-blog {
     margin-top: 50px;
 }
 
-#about_blog .e-content{
+.about-blog .e-content{
     color: rgb(255, 255, 255);
     font-size: 200%;
     height: 100%px;
@@ -89,14 +89,14 @@ footer {
     backdrop-filter: blur(10px);
 }
 
-#about_blog .h-card .p-name.u-url{
+.about-blog .h-card .p-name.u-url{
     font-size: 200%;
     color: white;
     margin-left: 20px;
     text-decoration: none;
 }
 
-#about_blog .e-content .p-name.u-url {
+.about-blog .e-content .p-name.u-url {
     font-size: 70%;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -107,7 +107,7 @@ footer {
 }
 
 @media screen and (max-width: 1400px) {
-    #about_blog .e-content{
+    .about-blog .e-content{
         margin: 20px 30px;
     }
 
@@ -118,11 +118,11 @@ footer {
 
 @media screen and (max-width: 850px) {
 
-    #about_blog .headers {
+    .about-blog .headers {
         font-size: 100%;
     }
 
-    #about_blog .e-content{
+    .about-blog .e-content{
         font-size: 100%;
         height: 100%;
         margin: 10px 40px 10px 40px;

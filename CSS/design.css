@@ -22,13 +22,13 @@ footer {
 }
 /*Classes for the Design page*/
 
-#design_pdf {
+#design-pdf {
     margin-left: 15%;
     margin-right: 15%;
     height: 70vh;
 }
 
-#design_header .headers {
+#design-header .headers {
     margin-top: 30px;
     font-weight: bold;
     font-size: 400%;
@@ -42,7 +42,7 @@ footer {
 
 @media screen and (max-width: 850px) {
 
-    #design_header .headers {
+    #design-header .headers {
         font-size: 200%;
         justify-content: center;
     }
