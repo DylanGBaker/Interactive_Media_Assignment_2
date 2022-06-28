@@ -3,10 +3,7 @@ body{
     background: rgba(0,0,0,0.4) url(../Test_Images/Website\ Backgroundjpg.jpg) repeat fixed 100% ;
     background-blend-mode: darken;
     background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    margin: 0;
-    padding-bottom: 25%;
+    height: 100vh;
 }
 
 body .headers{
@@ -14,12 +11,6 @@ body .headers{
     font-weight: bold;
 }
 
-footer {
-    height: 100px;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
 
 /*Classes for home page*/
 
