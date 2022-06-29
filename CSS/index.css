@@ -1,17 +1,17 @@
 body{
     font-family: 'Josefin Slab', serif;
-    background: rgba(0,0,0,0.4) url(../Test_Images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg) no-repeat fixed 100% ;
+    background: rgba(0,0,0,0.4) url(../Test_Images/Website_Backgroundjpg.jpg) fixed 100% ;
     background-blend-mode: darken;
     background-size: cover;
     height: 100vh;
     margin: 0;
+    padding: 0;
 }
 
 body .headers{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
 }
-
 
 /*Classes for home page*/
 

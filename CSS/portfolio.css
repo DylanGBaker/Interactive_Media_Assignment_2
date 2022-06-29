@@ -14,13 +14,6 @@ body .headers{
     font-weight: bold;
 }
 
-footer {
-    height: 100px;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
-
 /*Classes for the Portfolio page*/
 
 .portfolio {
